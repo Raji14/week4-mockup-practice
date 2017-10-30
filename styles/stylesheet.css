@@ -1,0 +1,93 @@
+body {
+  margin: auto;
+  background-color: #000;
+  font-family: sans-serif;
+}
+
+article {
+   /* background-color, */
+  margin: 0;
+  padding: 0;
+}
+
+.content-wrapper {
+  margin: auto;
+  padding: 0;
+  background-color: #fff;
+  width: 80%;
+}
+
+header h1 {
+font-size: 3em;
+  color:#8667b5;
+  padding: 1em;
+  text-align: center;
+}
+
+.main-nav {
+  /* background-color, remove bullets, border on each individual element, float elements, center elements, width on links, font color */
+  background-color:#8468b3;
+  margin: 0;
+  display: inline;
+  width: 100%;
+  }
+
+.main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav ul li  {
+  float: left;
+  padding: .50em;
+  border: solid 2px #6b4f9a;
+  width: 12.98%;
+  text-align: center;
+}
+
+.main-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+aside {
+  /* background-color, clear float, and then float*/
+  clear: both;
+  float: left;
+  background-color: #c0b2d5;
+  height: auto;
+}
+
+aside ul {
+   /* background-color, clear float, and then float*/
+  list-style-type: none;
+  padding: 1em;
+  width: 30%;
+  background-color: #c0b2d5;
+}
+
+aside ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+}
+
+
+
+figure {
+  margin: auto;
+}
+
+section {
+  background-color: #cccccc;
+  margin:auto;
+}
+
+footer {
+  float: left;
+  margin: auto;
+}
