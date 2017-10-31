@@ -24,8 +24,8 @@ font-size: 3em;
   text-align: center;
 }
 
+/* Main navigation styles. */
 .main-nav {
-  /* background-color, remove bullets, border on each individual element, float elements, center elements, width on links, font color */
   background-color:#8468b3;
   margin: 0;
   width: 100%;
@@ -50,34 +50,29 @@ font-size: 3em;
   text-decoration: none;
   font-weight: bold;
   padding: .50em;
-  border: solid 2px #6b4f9a;
+  border-right: solid 4px #6b4f9a;
 }
 
 .main-nav ul li a:hover {
   color: #000;
 }
 
-.main-nav ul li:first-child a {
-  border-left: none;
-}
-
 .main-nav ul li:last-child a {
   border-right: none;
 }
 
+/* Main content styles. */
 .main-content {
   display: flex;
 }
 
 .main-content aside {
   width: 20%;
-  /* background-color, clear float, and then float*/
   background-color: #c0b2d5;
   vertical-align: middle;
 }
 
 .main-content aside ul {
-   /* background-color, clear float, and then float*/
   list-style-type: none;
   background-color: #c0b2d5;
   padding: 5em 1em 1em 1em;
@@ -105,6 +100,7 @@ figure {
   text-align: center;
 }
 
+/* Footer styles. */
 footer {
   margin: auto;
   padding: 2em;
@@ -116,6 +112,7 @@ width:30px;
 height: 30px;
 padding: 0 1em 0 1em;}
 
+/* Float clearing. */
 .group:after {
   content: "";
   display: table;
