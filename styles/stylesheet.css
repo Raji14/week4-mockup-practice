@@ -28,7 +28,6 @@ font-size: 3em;
   /* background-color, remove bullets, border on each individual element, float elements, center elements, width on links, font color */
   background-color:#8468b3;
   margin: 0;
-  display: inline;
   width: 100%;
   }
 
@@ -40,35 +39,48 @@ font-size: 3em;
 
 .main-nav ul li  {
   float: left;
-  padding: .50em;
-  border: solid 2px #6b4f9a;
-  width: 12.98%;
+  width: 14.2857%;
   text-align: center;
 }
 
 .main-nav ul li a {
+  display: block;
   color: #fff;
   text-decoration: none;
   font-weight: bold;
+  padding: .50em;
+  border: solid 2px #6b4f9a;
 }
 
-aside {
+.main-nav ul li:first-child a {
+  border-left: none;
+}
+
+.main-nav ul li:last-child a {
+  border-right: none;
+}
+
+.main-content {
+  width: 100%;
+  text-align: center;
+}
+
+.main-content aside {
+  width: 20%;
   /* background-color, clear float, and then float*/
-  clear: both;
   float: left;
   background-color: #c0b2d5;
-  height: auto;
+  height: 100%;
 }
 
-aside ul {
+.main-content aside ul {
    /* background-color, clear float, and then float*/
   list-style-type: none;
   padding: 1em;
-  width: 30%;
   background-color: #c0b2d5;
 }
 
-aside ul li a {
+.main-content aside ul li a {
   display: block;
   color: #fff;
   text-decoration: none;
@@ -76,18 +88,24 @@ aside ul li a {
   padding: 8px 16px;
 }
 
-
-
 figure {
   margin: auto;
 }
 
-section {
+.main-content section {
   background-color: #cccccc;
   margin:auto;
+  float: left;
+  width: 80%;
 }
 
 footer {
   float: left;
   margin: auto;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }
