@@ -44,12 +44,17 @@ font-size: 3em;
 }
 
 .main-nav ul li a {
+  font-size: 1.5em;
   display: block;
   color: #fff;
   text-decoration: none;
   font-weight: bold;
   padding: .50em;
   border: solid 2px #6b4f9a;
+}
+
+.main-nav ul li a:hover {
+  color: #000;
 }
 
 .main-nav ul li:first-child a {
@@ -61,48 +66,55 @@ font-size: 3em;
 }
 
 .main-content {
-  width: 100%;
-  text-align: center;
+  display: flex;
 }
 
 .main-content aside {
   width: 20%;
   /* background-color, clear float, and then float*/
-  float: left;
   background-color: #c0b2d5;
-  height: 100%;
+  vertical-align: middle;
 }
 
 .main-content aside ul {
    /* background-color, clear float, and then float*/
   list-style-type: none;
-  padding: 1em;
   background-color: #c0b2d5;
+  padding: 5em 1em 1em 1em;
 }
 
 .main-content aside ul li a {
   display: block;
   color: #fff;
   text-decoration: none;
+  font-size: 1.5em;
   font-weight: bold;
   padding: 8px 16px;
+  text-align: center;
 }
 
 figure {
   margin: auto;
+  padding: 1em;
 }
 
 .main-content section {
   background-color: #cccccc;
-  margin:auto;
-  float: left;
+  padding: 2em;
   width: 80%;
+  text-align: center;
 }
 
 footer {
-  float: left;
   margin: auto;
+  padding: 2em;
+  text-align: center;
 }
+
+footer img {
+width:30px;
+height: 30px;
+padding: 0 1em 0 1em;}
 
 .group:after {
   content: "";
